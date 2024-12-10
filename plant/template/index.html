@@ -1,0 +1,87 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plant Care Guide</title>
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  <!-- Optional Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">PlantCare</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Add Plant</a></li>
+        <li><a href="#">Care Schedule</a></li>
+        <li><a href="#">Growth Tracking</a></li>
+        <li><a href="#">Plant Library</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Your Personalized Plant Care Assistant</h1>
+    <p>Organize your plant care routine, track growth, and explore care tips, all in one place.</p>
+    <button class="btn-primary" onclick="window.location.href='add-plant.html'">Get Started</button>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <h2>Features</h2>
+    <div class="feature-container">
+      <div class="feature-card">
+        <!-- <img src="images/track.png" alt="Track Plants"> -->
+        <h3>Track Your Plants</h3>
+        <p>Create detailed profiles for each plant.</p>
+      </div>
+      <div class="feature-card">
+       <!-- <img src="images/schedule.png" alt="Stay Organized"> -->
+        <h3>Stay Organized</h3>
+        <p>Set care schedules and receive reminders.</p>
+      </div>
+      <div class="feature-card">
+        <!-- <img src="images/growth.png" alt="Monitor Growth"> -->
+        <h3>Monitor Growth</h3>
+        <p>Visualize your plant’s progress over time.</p>
+      </div>
+      <div class="feature-card">
+       <!-- <img src="images/library.png" alt="Learn and Explore"> -->
+        <h3>Learn and Explore</h3>
+        <p>Access plant care guides and troubleshooting tips.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recent Activity Section -->
+  <section class="recent-activity">
+    <h2>Recent Activity</h2>
+    <ul>
+      <li>
+        <!-- <img src="images/plant1.jpg" alt="Plant 1"> -->
+        <span>Water your Aloe Vera tomorrow.</span>
+      </li>
+      <li>
+        <!-- <img src="images/plant2.jpg" alt="Plant 2"> -->
+        <span>Fertilize your Rose today.</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Plant Care Guide. All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
